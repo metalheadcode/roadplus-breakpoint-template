@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+.section {
+  height: 100vh;
+  position: relative;
+}
+
+#background-1 {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(216, 74, 74);
+  position: absolute;
+  z-index: -1;
+}
+
+#background-2 {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(84, 169, 84);
+  position: absolute;
+  z-index: -1;
+}
+
+#background-3 {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(111, 111, 222);
+  position: absolute;
+  z-index: -1;
+}
+
+#background-4 {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(211, 107, 211);
+  position: absolute;
+  z-index: -1;
+}
+
+#background-5 {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(205, 168, 100);
+  position: absolute;
+  z-index: -1;
+}
+/* default size */
+h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+h6 {
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+p {
+  font-weight: 200;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+  h6 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h6 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+  h6 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h6 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+}
